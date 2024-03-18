@@ -1,0 +1,54 @@
+/* .overflow{
+   background-color: antiquewhite; 
+   color: blue;
+   overflow: scroll;
+   height: 30vh;
+   width: auto;
+} */
+
+/* .overflow{
+   background-color: antiquewhite; 
+   color: blue;
+   overflow:auto;
+   height: 30vh;
+   width: auto;
+} */
+
+/* 
+.overflow{
+    background-color: antiquewhite; 
+    color: blue;
+    overflow:hidden;
+    height: 30vh;
+    width: auto;
+ } */
+
+ /* .overflow{
+    background-color: antiquewhite; 
+    color: blue;
+    overflow:clip;
+    height: 30vh;
+    width: auto;
+ } */
+ /* .overflow{
+    background-color: antiquewhite; 
+    color: blue;
+    overflow-x:scroll;
+    height: 30vh;
+    width: auto;
+ } */
+ /* .overflow{
+    background-color: antiquewhite; 
+    color: blue;
+    overflow-y:scroll;
+    height: 30vh;
+    width: auto;
+ } */
+
+ .overflow{
+    background-color: antiquewhite; 
+    color: blue;
+    overflow-y:hidden;
+    height: 30vh;
+    width: auto;
+ }

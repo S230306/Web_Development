@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Flex direction</title>
+    <style>
+        .flexdirection{
+            background-color: aqua;
+            display: flex;
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+            /* flex-direction: row; */
+            flex-direction: row-reverse
+        }
+        .flexdirection > div{
+            color:solid black;
+            border:10px solid black;
+            padding:10px;
+            margin:20px;
+        }
+    </style>
+</head>
+<body>
+    <p>Hey ! here we are going to learn the property of css flex-direction</p>
+    <div class="flexdirection">
+        <div>column</div>
+        <div>column-reverse</div>
+        <div>row</div>
+        <div>row- reverse</div>
+    </div>
+</body>
+</html>

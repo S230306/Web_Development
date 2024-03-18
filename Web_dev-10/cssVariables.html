@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css Variables</title>
+    <style>
+      ul {
+        display: flex;
+        border: 1px solid black;
+        margin: 2px;
+        padding: 3px;
+        list-style: inside;
+        list-style-type: none;
+        justify-content: space-around;
+      }
+      :root {
+        --color: aqua;
+        --seccolor: green;
+      }
+      li:nth-child(1) {
+        background: var(--color);
+      }
+      li:nth-child(2) {
+        background: lightgreen;
+      }
+
+      /* Selects every third element among any group of siblings */
+      :nth-child(3) {
+        background: yellow;
+      }
+      li:nth-child(4) {
+        background: var(--seccolor);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Lorem, ipsum.</h1>
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>welcome</li>
+      <li>Setting</li>
+    </ul>
+  </body>
+</html>

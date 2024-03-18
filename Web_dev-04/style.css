@@ -1,0 +1,8 @@
+*{
+    background-color: Pink;
+    text-align: center;
+}
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}

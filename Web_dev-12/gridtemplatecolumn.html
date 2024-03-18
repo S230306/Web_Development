@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's learn about grid template colomn</title>
+    <style>
+        .container{
+            display:grid;
+            background-color: aqua;
+
+            grid-template-columns: 100px 150px 200px 100px;
+
+            grid-template-rows: 100px 150px 200px;
+            grid-gap:10px;
+            justify-content: center;
+        }
+        .container > div{
+            background-color:purple;
+            margin:10px;
+            padding:20px;
+
+        }
+    </style>
+</head>
+<body>
+   <h1>Let's learn about css grid_grid template column</h1> 
+   <div class="container">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+    <div class="item">D</div>
+    <div class="item">E</div>
+    <div class="item">F</div>
+    <div class="item">G</div>
+    <div class="item">H</div>
+    <div class="item">I</div>
+   </div>
+</body>
+</html>
